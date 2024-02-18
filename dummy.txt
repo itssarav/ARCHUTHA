@@ -35,3 +35,30 @@
         numm.style.backgroundColor="red"
     }
 </script>
+......................................................
+6..
+<h1 id= "result">name</h1>
+<button onclick="update(event)">sarav</button>
+<button onclick="update(event)">priya</button>
+<button onclick="update(event)">yakesh</button>
+<script>
+    var result=document.getElementById("result")
+    function update(event)
+    {
+        result.textContent=event.target.textContent
+    }
+</script>
+..............................................................
+<h1 onclick="delet(event)">one</h1>
+<h1  onclick="delet(event)">two</h1>
+<h1  onclick="delet(event)">three</h1>
+<h1  onclick="delet(event)">four</h1>
+<h1 onclick="delet(event)">five</h1>
+
+<script>
+    var h1 = document.getElementById("num")
+    function delet(event)
+    {
+ event.target.remove()
+    }
+</script>
