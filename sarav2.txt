@@ -22,3 +22,17 @@ else
 }
 
 </script>
+.........................................................................................................
+4)
+<button onclick="update()">click </button>
+<div id="result"></div>
+<script>
+var div=document.getElementById("result")
+function update()
+{
+    var listitem=document.createElement("h1")
+    listitem.textContent="hello baby"
+    div.append(listitem)
+}
+
+</script>
