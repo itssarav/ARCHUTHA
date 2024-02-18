@@ -25,3 +25,13 @@
     }
     
 </script>
+...............................................
+ 5...
+<button id="numm" onclick="update()">click here </button>
+<script>
+    var number=document.getElementById("numm")
+    function update()
+    {
+        numm.style.backgroundColor="red"
+    }
+</script>
