@@ -1,0 +1,10 @@
+<div >
+    <h1>saravanan</h1>
+    <h1>saran</h1>
+</div>
+<script>
+    var d=document.querySelector("div")
+    var h=document.createElement("h1")
+    h.textContent="priya"
+  d.insertAdjacentElement("beforebegin",h)
+</script>
