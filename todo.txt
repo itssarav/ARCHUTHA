@@ -1,0 +1,14 @@
+<input>
+<button onclick="add()">add</button>
+<ul id="fig">
+    <li>hello</li>
+    <button>delete</button>
+</ul>
+<script>
+    var ul=document.getElementById("fig")
+    function add()
+    {
+ var cre =document.createElement("ul")
+ cre.textContent="hello"
+ ul.append(cre)
+    }
