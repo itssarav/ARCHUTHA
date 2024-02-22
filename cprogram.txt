@@ -21,3 +21,14 @@ int main()
 
     return 0;
 }
+
+3.
+int main()
+{ int cost=250;
+float time=5.6;
+char toy[]="teddy bear";
+char grade='o';
+    printf("My fav toy is to play with %s because it costs only %d and so i got a %c in exam as im comfortable scheduling my time at %f",toy,cost,grade,time);
+
+    return 0;
+}
