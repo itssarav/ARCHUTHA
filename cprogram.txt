@@ -7,3 +7,17 @@ int main()
     printf("he was very enthusiastic and scored %d \n",mark);
     return 0;
 }
+GENERAL ACCESS MODOFIERS
+int main()
+{
+    char name[]="SARAVANAN";
+    int mark=500;
+    double cgpa=9.05;
+    char grade='O';
+    printf("\n%s",name);
+    printf("\n%d",mark);
+    printf("\n%f",cgpa);
+    printf("\n%c",grade);
+
+    return 0;
+}
