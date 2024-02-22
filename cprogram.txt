@@ -29,6 +29,19 @@ float time=5.6;
 char toy[]="teddy bear";
 char grade='o';
     printf("My fav toy is to play with %s because it costs only %d and so i got a %c in exam as im comfortable scheduling my time at %f",toy,cost,grade,time);
+4.addition of two float numbers
+void main()
+{
+float a,b,c;
+printf("enter the first number \n");
+scanf("%f",&a);
+printf("enter the second num \n");
+scanf("%f",&b) ;
+c=a+b;
+printf("the summation of the two numbers is %f",c);
+
+return 0;
+}
 
     return 0;
 }
