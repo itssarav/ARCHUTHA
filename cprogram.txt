@@ -105,5 +105,72 @@ else{
 
 return 0;
 }
+9.greatest of all num
+
+void main()
+{
+int p,n,q,max;
+printf("enter p value:");
+scanf("%d",&p);
+printf("enter n value:");
+scanf("%d",&n);
+printf("enter q value:");
+scanf("%d",&q);
+if((p>n)&&(p>q)){
+    printf("max num is %d",p);
+}
+if((n>p)&&(n>q)){
+    printf("max num is %d",n);
+}
+
+if((q>n)&&(p<q)){
+    printf("max num is %d",q);
+}
+else
+    printf("none");
+
+
+return 0;
+10) positive
+void main()
+{
+int n;
+printf("enter n value:");
+scanf("%d",&n);
+if(n>0){
+
+    printf("positive number :%d",n);
+}
+
+else if(n<0){
+
+    printf("negative number :%d",n);
+}
+else{ printf("zero");
+}
+
+return 0;
+}
+11) grade for marks
+void main()
+{
+int n;
+printf("enter n value:");
+scanf("%d",&n);
+if(n>=70){
+
+    printf("distinction:%d",n);
+}
+
+else if(n<70 && n>50){
+
+    printf("just pass with :%d",n);
+}
+else{ printf("fail");
+}
+
+return 0;
+}
+
 
 
