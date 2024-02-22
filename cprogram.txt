@@ -59,3 +59,33 @@ printf("the  area of the rectange is :%f cmsq",c);
 
 return 0;
 }
+6.AREA OF CIRCLE
+void main()
+{
+int r;
+float a;
+printf("enter the radius :");
+scanf("%d",&r);
+a=3.142* pow(r,2);
+printf("the  area of the circle is :%f cmsq",a);
+
+return 0;
+}
+7. PNR
+void main()
+{
+float p,n,r,amt;
+printf("enter p value:");
+scanf("%f",&p);
+printf("enter n value:");
+scanf("%f",&n);
+printf("enter r value:");
+scanf("%f",&r);
+amt=(p*n*r)/100;
+printf("the amount calculated for theabove program is %f",amt);
+
+
+return 0;
+}
+
+
