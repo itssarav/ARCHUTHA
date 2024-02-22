@@ -1,0 +1,9 @@
+
+int main()
+{
+    char name[]="SARAVANAN";
+    int mark=500;
+    printf("A student named %s was there \n",name);
+    printf("he was very enthusiastic and scored %d \n",mark);
+    return 0;
+}
