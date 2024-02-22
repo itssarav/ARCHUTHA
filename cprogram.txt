@@ -87,5 +87,23 @@ printf("the amount calculated for theabove program is %f",amt);
 
 return 0;
 }
+8. minimum of twonum
+void main()
+{
+int p,n,min;
+printf("enter p value:");
+scanf("%d",&p);
+printf("enter n value:");
+scanf("%d",&n);
+if(p>n){
+    printf("minimukm num is %d",n);
+}
+else{
+    printf("minimum number is %d",p);
+}
+
+
+return 0;
+}
 
 
