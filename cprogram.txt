@@ -254,6 +254,38 @@ for(i=1;i<=n;i++){
  printf("%d",p);
 }
 
+palindrome
+int main()
+{
+   int a,s=0,n,r;
+   printf("enter the no to be reversed:");
+   scanf("%d",&a);
+   for(n=a;n>0;)
+   { r=n%10;//r=1 r=10
+     s=s*10+r;//s=1
+     n/=10;
+
+   }
+   if(s==a){
+        printf("palindrome");
+
+   }
+   else{
+    printf("not a palindrome");
+   }
+   }
+int main()
+{
+   int i,j,n;
+   printf("enter");
+   scanf("%d",&n);
+   for(i=n;i>=1;i--){
+   for(j=1;j<=i;j++){
+    printf("*");}
+    printf("\n");
+
+   }}
+
 
 
 
