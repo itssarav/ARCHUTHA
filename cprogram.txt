@@ -347,5 +347,24 @@ int main()
 
 }
 
+2D ARRAY
+int main()
+{ int i,j,sar[2][2];//={{10,20},{30,40}};
+for(i=0;i<2;i++){
+    for(j=0;j<2;j++){
+printf("enter the vales of array:");
+scanf("%d",&sar[i][j]);}
+}
+for(i=0;i<2;i++)
+{
+
+for(j=0;j<2;j++)
+{
+    printf("%d",sar[i][j]);
+    printf("\n");
+
+}
+}
+
 
 
